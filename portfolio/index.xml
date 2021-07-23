@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Wai Zhen&#39;s Portfolio</title>
+    <link>https://waizhen.github.io/Data_Science_Portfolio/portfolio/</link>
+    <description>Recent content in Portfolios on Wai Zhen&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Jul 2021 16:59:54 +0600</lastBuildDate><atom:link href="https://waizhen.github.io/Data_Science_Portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recruitment Scam Prediction</title>
+      <link>https://waizhen.github.io/Data_Science_Portfolio/portfolio/recruitment-scam/</link>
+      <pubDate>Wed, 21 Jul 2021 16:59:54 +0600</pubDate>
+      
+      <guid>https://waizhen.github.io/Data_Science_Portfolio/portfolio/recruitment-scam/</guid>
+      <description>Employment and Recruitment Scam Prediction Project Summary This is my 2nd personal project that I decided to start working on it. Using the popular Employment Scam Aegean Dataset (EMSCAD) that can be found on Kaggle, a data science project was initiated and the process involved the usual data science processes such as data cleaning, exploratory data analysis (EDA), text mining, machine learning and also deep learning to predict whether a given job post is real or fraud.</description>
+    </item>
+    
+    <item>
+      <title>Uber Lyft Fare Prediction</title>
+      <link>https://waizhen.github.io/Data_Science_Portfolio/portfolio/uber-lyft/</link>
+      <pubDate>Wed, 21 Jul 2021 16:58:55 +0600</pubDate>
+      
+      <guid>https://waizhen.github.io/Data_Science_Portfolio/portfolio/uber-lyft/</guid>
+      <description>Uber and Lyft EDA and Price Rate Prediction Project Summary My very first personal project that I had the courage to do it myself using Python is this simple project that used the Uber and Lyft Boston MA dataset. Based on the raw dataset that involved both ride and weather information, this project went through the data science process which performed exploratory data analysis (EDA) before focusing on machine learning with the aim to predict the fare rate of Uber and Lyft rides in Boston.</description>
+    </item>
+    
+    <item>
+      <title>Student Performance Prediction</title>
+      <link>https://waizhen.github.io/Data_Science_Portfolio/portfolio/student-performance/</link>
+      <pubDate>Wed, 21 Jul 2021 16:56:54 +0600</pubDate>
+      
+      <guid>https://waizhen.github.io/Data_Science_Portfolio/portfolio/student-performance/</guid>
+      <description>Open University Student Performance Imbalanced Classification Project Summary During my second semester of my Master’s degree, I chose the topic of imbalanced classification of university student performance for my data science final project using Python. I stumbled upon this dataset called the Open University Learning Analytics dataset while browsing on Kaggle and decided to use this dataset for my project. Aside from applying the generic data science processes from data cleaning to modeling, the primary objectives of doing this project are:</description>
+    </item>
+    
+    <item>
+      <title>E-commerce Customer &amp; Product Analytics</title>
+      <link>https://waizhen.github.io/Data_Science_Portfolio/portfolio/ecommerce/</link>
+      <pubDate>Wed, 21 Jul 2021 16:54:54 +0600</pubDate>
+      
+      <guid>https://waizhen.github.io/Data_Science_Portfolio/portfolio/ecommerce/</guid>
+      <description>Market Basket Analysis in E-commerce incorporating Customer Segmentation Project Summary Another big scale project that I had initiated during my Master’s degree studies was this project, whereby I was required to combine 2 unsupervised learning algorithms into a single data science project. Using the Online Retail V3 dataset that I found it pretty interesting on Kaggle, the SEMMA data mining framework was adopted for this data project using Python. Focusing on extracting insights from both customers and the products that were involved, the objectives that were defined are:</description>
+    </item>
+    
+    <item>
+      <title>NYC Rodent Inspection</title>
+      <link>https://waizhen.github.io/Data_Science_Portfolio/portfolio/nyc-rodent/</link>
+      <pubDate>Sat, 21 Jul 2018 16:57:54 +0600</pubDate>
+      
+      <guid>https://waizhen.github.io/Data_Science_Portfolio/portfolio/nyc-rodent/</guid>
+      <description>The Rodent Inspection Journey in NYC Project Summary This project is my very first data science project which was a group effort during my first semester in University of Malaya. Using R language is the main programming language, we obtained the NYC Rodent Inspection logs data which is a medium-sized dataset and started the project from data cleaning to descriptive analysis which involved EDA. As per the requirements given by our lecturer, the main objectives of this project were as follows:</description>
+    </item>
+    
+    <item>
+      <title>Coming Soon (Work-In-Progress)</title>
+      <link>https://waizhen.github.io/Data_Science_Portfolio/portfolio/coming-soon/</link>
+      <pubDate>Sat, 21 Jul 2018 16:53:54 +0600</pubDate>
+      
+      <guid>https://waizhen.github.io/Data_Science_Portfolio/portfolio/coming-soon/</guid>
+      <description>Future Project (Coming Soon) Future projects will be added here in future. Stay tuned for more projects!
+ Nothing to show
+ </description>
+    </item>
+    
+  </channel>
+</rss>

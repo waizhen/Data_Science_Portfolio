@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.85.0" />
+  
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-commerce Customer &amp; Product Analytics</title>
+  <link rel="icon" href="https://waizhen.github.io/Data_Science_Portfolio/images/favicon-analytics.ico">
+
+  <!-- Twitter Bootstrs CSS -->
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/plugins/bootstrap/bootstrap.min.css">
+  <!-- Ionicons Fonts Css -->
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/plugins/ionicons/ionicons.min.css">
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/plugins/animate-css/animate.css">
+  <!-- Hero area slider css-->
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/plugins/slider/slider.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/plugins/slick/slick.css">
+  <!-- Fancybox -->
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/plugins/facncybox/jquery.fancybox.css">
+  <!-- hover -->
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/plugins/hover/hover-min.css">
+  <!-- template main css file -->
+  
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/css/style.min.css" media="screen">
+  
+	<!-- Custom stylesheet - for your changes -->
+	
+  <link rel="stylesheet" href="https://waizhen.github.io/Data_Science_Portfolio/css/custom.min.css" media="screen">
+  
+</head><body><head>
+  
+  
+</head>
+<section class="top-bar animated-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="https://waizhen.github.io/Data_Science_Portfolio/">
+						<img src="https://waizhen.github.io/Data_Science_Portfolio/images/logo.jpg" alt="Wai Zhen&#39;s Portfolio">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							
+							<li class="nav-item">
+								<a class="nav-link"
+									href="https://waizhen.github.io/Data_Science_Portfolio/">Home</a>
+							</li>
+							
+							
+							
+							<li class="nav-item">
+								<a class="nav-link"
+									href="https://waizhen.github.io/Data_Science_Portfolio/about">About</a>
+							</li>
+							
+							
+							
+							<li class="nav-item">
+								<a class="nav-link"
+									href="https://waizhen.github.io/Data_Science_Portfolio/gallery">Gallery</a>
+							</li>
+							
+							
+							
+							<li class="nav-item">
+								<a class="nav-link"
+									href="https://waizhen.github.io/Data_Science_Portfolio/contact">Contact</a>
+							</li>
+							
+							
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Page Header -->
+<section class="global-page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>E-commerce Customer &amp; Product Analytics</h2>
+          <div class="portfolio-meta">
+            <span>2021-07-21</span>|
+            <span> Category: Clustering, RFM Model, Association Rules Mining</span>|
+            <span> GitHub:
+              <a href="https://github.com/waizhen/E-commerce_Clustering_Apriori">https://github.com/waizhen/E-commerce_Clustering_Apriori</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- work details part start -->
+<section class="work-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        
+        <div class="work-single-image">
+          
+          <img class="img-fluid w-100" src="https://waizhen.github.io/Data_Science_Portfolio/images/portfolio/ecommerce-project.png" alt="work-single-image">
+        </div>
+        
+        
+        
+        <div class="work-single-content">
+          <h3 id="market-basket-analysis-in-e-commerce-incorporating-customer-segmentation">Market Basket Analysis in E-commerce incorporating Customer Segmentation</h3>
+<h5 id="project-summary">Project Summary</h5>
+<p>Another big scale project that I had initiated during my Master’s degree studies was this project, whereby I was required to combine 2 unsupervised learning algorithms into a single data science project. Using the Online Retail V3 dataset that I found it pretty interesting on Kaggle, the <strong>SEMMA data mining framework</strong> was adopted for this data project using <strong>Python</strong>. Focusing on extracting insights from both customers and the products that were involved, the objectives that were defined are:</p>
+<ol>
+<li>To apply clustering algorithms to perform segmentation of customers into different customer groups.</li>
+<li>To conduct market basket analysis on the products from different customer segments using A-Priori algorithm.</li>
+</ol>
+<blockquote>
+<h5 id="clustering-results">Clustering Results</h5>
+<p><figure><img src="/images/portfolio/ecommerce-snakeplot.png"/>
+</figure>
+
+The experiment for customer segmentation included the use of <strong>K-means clustering</strong> and <strong>hierarchical clustering</strong> and based on the silhouette score analysis and elbow method, it was decided that 4 clusters were suitable for the project. The figure above illustrated the <strong>RFM customer segmentation results</strong> in terms of snake plot for <strong>K-means clustering</strong>, showing that 4 types of customer segments were identified which are <strong>at-risk</strong> customers (cluster 0), <strong>recent</strong> customers (cluster 1), <strong>lost/churned</strong> customers (cluster 2), and <strong>champion/loyal</strong> customers (cluster 3). Each of the segments demonstrated different behaviours which can be analysed through the RFM features.</p>
+</blockquote>
+<h5 id="a-priori-results">A-Priori Results</h5>
+<p><figure><img src="/images/portfolio/ecommerce-boxplot.png"/>
+</figure>
+
+As for market basket analysis, <strong>frequent item sets</strong> and <strong>association rules</strong> were successfully extracted using <strong>A-Priori algorithm</strong> for both K-means customer segments and hierarchical customer segments. Brief graphical analyses were also carried out by comparing the support, confidence and lift distribution of different customer segments. Besides that, the total count of frequent item sets that were obtained were also compared using graphs. The figure above demonstrates the support distribution of the 4 customer segments that were extracted for K-means clustering and the differences can be seen clearly.</p>
+<p>The results showed that the objectives were achieved and the project was concluded based on the fact that the use of SEMMA framework with 2 unsupervised algorithms were successful in obtaining hidden useful insights from both customers and products regarding <strong>customer buying behaviours</strong>.</p>
+<p><strong>Dataset source:</strong> <a href="https://www.kaggle.com/coldperformer/online-retail-data-v3?select=RetailDataIII.csv">Kaggle dataset link</a></p>
+
+        </div>
+        
+      </div>
+      <div class="col-lg-4">
+        
+        <div class="work-single-sidebar">
+          
+          <h5>Dataset</h5>
+          <h6>Online Retail V3 dataset</h6>
+          
+          
+          <h5>Source of Data</h5>
+          <h6>Kaggle Open Dataset</h6>
+          
+          
+          <h5>Completion Date</h5>
+          <h6>June 3, 2021</h6>
+          
+          
+          <h5>Main Objective</h5>
+          <h6>Clustering, Association Rules Mining</h6>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- work details part end -->
+
+
+<!-- Call To Action Section Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2 class="title wow fadeInDown" data-wow-delay=".3s"
+            data-wow-duration="500ms">SO WHAT DO YOU THINK ?</h1>
+            <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">
+              I’m planning to add a few more projects into my portfolio in future when I am free. <br> If you like my work and would like to have a chat, feel free to contact me or connect with me on LinkedIn!</p>
+            <a href="/contact" class="btn btn-default btn-contact wow fadeInDown"
+              data-wow-delay=".7s" data-wow-duration="500ms">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call To Action Section End -->
+
+
+<!-- Footer Section Start -->
+<footer id="footer">
+  <div class="container">
+    <div class="row content-justify-between">
+      <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
+        <p class="copyright">Copyright:
+          <span>
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+          </span> Design and Developed by
+          <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
+          <br> Get More Bootstrap Template From Our
+          <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
+        </p>
+      </div>
+      <div class="col-md-4 col-12">
+        <!-- Social Media -->
+        <ul class="social text-center text-md-right text-lg-right">
+          
+          <li><a href="https://wa.me/60173393070"><i class="ion-social-whatsapp"></i></a></li>
+          
+          <li><a href="https://www.linkedin.com/in/chinwaizhen/"><i class="ion-social-linkedin"></i></a></li>
+          
+          <li><a href="https://github.com/waizhen"><i class="ion-social-github"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer section end -->
+
+<!-- jquery -->
+<script src="https://waizhen.github.io/Data_Science_Portfolio/plugins/jQurey/jquery.min.js"></script>
+<!-- slick slider -->
+<script src="https://waizhen.github.io/Data_Science_Portfolio/plugins/slick/slick.min.js"></script>
+<!-- bootstrap js -->
+<script src="https://waizhen.github.io/Data_Science_Portfolio/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- wow js -->
+<script src="https://waizhen.github.io/Data_Science_Portfolio/plugins/wow-js/wow.min.js"></script>
+<!-- slider js -->
+<script src="https://waizhen.github.io/Data_Science_Portfolio/plugins/slider/slider.js"></script>
+<!-- Fancybox -->
+<script src="https://waizhen.github.io/Data_Science_Portfolio/plugins/facncybox/jquery.fancybox.js"></script>
+<!-- template main js -->
+
+<script src="https://waizhen.github.io/Data_Science_Portfolio/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script></body>
+
+</html>
