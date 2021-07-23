@@ -134,13 +134,13 @@
 </ol>
 <blockquote>
 <h5 id="results">Results</h5>
-<p><figure><img src="images/portfolio/student-default-result.png"/>
+<p><figure><img src="https://drive.google.com/uc?export=view&amp;id=1UqwFKUQQLQ7e8e_Egy5ShTni1XtDkfje"/>
 </figure>
 
 By using 2 types of algorithms which were <strong>XGBoost classifier</strong> and <strong>Catboost classifier</strong>, the best results were extracted. Through the use of both oversampling and SMOTE sampling, it was observed that <strong>oversampling</strong> outperformed SMOTE sampling and the models with the highest recall for fail class were all models trained with oversampled datasets. Looking at the results table, even though the highest accuracies attained were from models trained with original imbalanced datasets, but recall is a more important metric and oversampled models produced the highest recall values of 81.34% and 84.91% for XGBoost and Catboost respectively. Unfortunately, the use of <strong>dimensionality reduction did not improve the model performance</strong> but significantly worsened the fail class recall values.</p>
 </blockquote>
 <h5 id="analysis-of-best-model-results">Analysis of Best Model Results</h5>
-<p><figure><img src="images/portfolio/student-conf-over.png"/>
+<p><figure><img src="https://drive.google.com/uc?export=view&amp;id=10N1ONPbkwRS9j9HI3dqbOfZ-nFJkj5RV"/>
 </figure>
 
 If we observe the confusion matrix for Catboost with oversampling, it is obvious that the accuracy of 87.97% may not be the best one when compared with Catboost trained with the original imbalanced dataset with accuracy of 89.68%, but comparing fail class recalls showed a <strong>significant difference of 8.45%</strong> whereby the Catboost trained with imbalanced data only obtained 76.46% recall. This concluded the fact that sampling techniques are extremely crucial when dealing with imbalanced data. With this, the findings of this projects were acquired and the objectives were also achieved.</p>
